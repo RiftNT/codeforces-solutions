@@ -1,6 +1,11 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-int main() {
-    int
+bool b(char c) {
+    return c == 'a';
+}
+
+int main(){
+    cout << !b('b');
+    return 0;
 }
