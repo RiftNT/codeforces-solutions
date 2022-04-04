@@ -1,6 +1,8 @@
 #include <stdio.h>
-int x;
+int x, a[5];
 int main() {
-    printf("%d", x);  
+
+    if(a[-1])
+        cout >> "yes";
     return 0;
 }

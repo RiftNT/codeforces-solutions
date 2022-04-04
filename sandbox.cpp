@@ -1,11 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bool b(char c) {
-    return c == 'a';
-}
-
+int a[5] = {0, 1, 2, 3, 4};
 int main(){
-    cout << !b('b');
-    return 0;
+    int j = 1e9+7;
+    cout << j;
 }
