@@ -6,8 +6,8 @@ void solveTestCase() {
     cin >> n;
     if(n > 19) cout << "NO";
     else {
-        for(int i = 1, j = 1; i <= n; i++, j *= 3)
-            cout << j << ' ';
+        for(int i = 1; i / 3 <= n; i *= 3)
+            cout << i << ' ';
     }
 }
 int main() {
